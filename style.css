@@ -1,4 +1,32 @@
+.banner-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
 
+.banner {
+  width: 100%;
+  height: auto; /* keeps aspect ratio */
+  display: block;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Arial', sans-serif;
+}
+
+.banner-text h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.banner-text p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
